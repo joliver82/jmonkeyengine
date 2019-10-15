@@ -211,6 +211,25 @@ public class InputSystemJme implements InputSystem, RawInputListener {
                 handleMouseEvent(0, false, nic, evt);
 
                 break;
+            case SCROLL:
+                // TODO: not sure if some stuff like input pointer is required here also
+                // Maybe it's detected like down - scroll - up. Debug and check
+                /*
+                if (inputPointerId != evt.getPointerId()) {
+                    // Another touch was done by the user
+                    // while the other interacts with nifty, ignore.
+                    break;
+                }
+                
+                inputPointerId = -1;
+                handleMouseEvent(0, false, nic, evt);
+                */
+
+                // process scroll as wheel event should make scroll panels work in a better way
+                // delta/200 just as a test
+                nic.processMouseEvent(x, y, evt.getDeltaY()/200, -1, false);
+
+                break;
         }
     }
 
