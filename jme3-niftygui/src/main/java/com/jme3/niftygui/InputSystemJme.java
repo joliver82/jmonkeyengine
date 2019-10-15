@@ -227,7 +227,7 @@ public class InputSystemJme implements InputSystem, RawInputListener {
 
                 // process scroll as wheel event should make scroll panels work in a better way
                 // delta/200 just as a test
-                nic.processMouseEvent(x, y, evt.getDeltaY()/200, -1, false);
+                nic.processMouseEvent(x, y, (int)evt.getDeltaY()/200, -1, false);
 
                 break;
         }
