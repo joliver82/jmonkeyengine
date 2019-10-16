@@ -199,6 +199,7 @@ public class InputSystemJme implements InputSystem, RawInputListener {
                 inputPointerId = evt.getPointerId();
                 handleMouseEvent(0, true, nic, evt);
 
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - down");
                 break;
             case UP:
                 if (inputPointerId != evt.getPointerId()) {
@@ -210,6 +211,7 @@ public class InputSystemJme implements InputSystem, RawInputListener {
                 inputPointerId = -1;
                 handleMouseEvent(0, false, nic, evt);
 
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - up");
                 break;
             case SCROLL:
                 // TODO: not sure if some stuff like input pointer is required here also
@@ -226,9 +228,21 @@ public class InputSystemJme implements InputSystem, RawInputListener {
                 */
 
                 // process scroll as wheel event should make scroll panels work in a better way
-                // delta/200 just as a test
-                nic.processMouseEvent(x, y, (int)evt.getDeltaY()/200, -1, false);
+                nic.processMouseEvent(x, y, (int)evt.getDeltaY(), -1, false);
 
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - scroll");
+                break;
+            case MOVE:
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - move");
+                break;
+            case HOVER_START:
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - hover start");
+                break;
+            case HOVER_MOVE:
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - hover move");
+                break;
+            case HOVER_END:
+                Logger.getLogger(InputSystemJme.class.getName()).log(Level.SEVERE, "DBG_TOUCH - hover end");
                 break;
         }
     }
