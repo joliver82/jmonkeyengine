@@ -1,4 +1,4 @@
-// OpenAL Soft r1.16
+// OpenAL Soft r1.19.1
 String openALSoftUrl = 'https://github.com/jMonkeyEngine/openal-soft/archive/openal-soft-1.19.1.zip'
 String openALSoftZipFile = 'OpenALSoft.zip'
 
