@@ -57,7 +57,7 @@
 		BBAA18552C9CC9B40015DF5E = {
 			isa = PBXGroup;
 			children = (
-				BBAA18612C9CC9B40015DF5E /* jme3-ios-native-lib */,
+				BBAA18612C9CC9B40015DF5E /* jme3-ios-native */,
 				BBAA18602C9CC9B40015DF5E /* Products */,
 				BBAA18802C9CCB710015DF5E /* Frameworks */,
 			);
@@ -71,7 +71,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBAA18612C9CC9B40015DF5E /* jme3-ios-native-lib */ = {
+		BBAA18612C9CC9B40015DF5E /* jme3-ios-native */ = {
 			isa = PBXGroup;
 			children = (
 				BB0987B62CA2B31900AF4C26 /* com_jme3_util_IosNativeBufferAllocator.c */,
@@ -89,7 +89,7 @@
 				BBAA18622C9CC9B40015DF5E /* jme3_ios_native_lib.h */,
 				BBAA18632C9CC9B40015DF5E /* Info.plist */,
 			);
-			path = "jme3-ios-native-lib";
+			path = "jme3-ios-native";
 			sourceTree = "<group>";
 		};
 		BBAA18802C9CCB710015DF5E /* Frameworks */ = {
@@ -118,9 +118,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BBAA185E2C9CC9B40015DF5E /* jme3-ios-native-lib */ = {
+		BBAA185E2C9CC9B40015DF5E /* jme3-ios-native */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBAA18672C9CC9B40015DF5E /* Build configuration list for PBXNativeTarget "jme3-ios-native-lib" */;
+			buildConfigurationList = BBAA18672C9CC9B40015DF5E /* Build configuration list for PBXNativeTarget "jme3-ios-native" */;
 			buildPhases = (
 				BBAA185A2C9CC9B40015DF5E /* Headers */,
 				BBAA185B2C9CC9B40015DF5E /* Sources */,
@@ -131,8 +131,8 @@
 			);
 			dependencies = (
 			);
-			name = "jme3-ios-native-lib";
-			productName = "jme3-ios-native-lib";
+			name = "jme3-ios-native";
+			productName = "jme3-ios-native";
 			productReference = BBAA185F2C9CC9B40015DF5E /* jme3_ios_native_lib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBAA18592C9CC9B40015DF5E /* Build configuration list for PBXProject "jme3-ios-native-lib" */;
+			buildConfigurationList = BBAA18592C9CC9B40015DF5E /* Build configuration list for PBXProject "jme3-ios-native" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBAA185E2C9CC9B40015DF5E /* jme3-ios-native-lib */,
+				BBAA185E2C9CC9B40015DF5E /* jme3-ios-native */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.24-8/arm64/Contents/Home/include/**",
 				);
-				INFOPLIST_FILE = "jme3-ios-native-lib/Info.plist";
+				INFOPLIST_FILE = "jme3-ios-native/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +335,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jme3.jme3-ios-native-lib";
+				PRODUCT_BUNDLE_IDENTIFIER = "jme3.jme3-ios-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -361,7 +361,7 @@
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.24-8/arm64/Contents/Home/include/**",
 				);
-				INFOPLIST_FILE = "jme3-ios-native-lib/Info.plist";
+				INFOPLIST_FILE = "jme3-ios-native/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,7 +369,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jme3.jme3-ios-native-lib";
+				PRODUCT_BUNDLE_IDENTIFIER = "jme3.jme3-ios-native";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBAA18592C9CC9B40015DF5E /* Build configuration list for PBXProject "jme3-ios-native-lib" */ = {
+		BBAA18592C9CC9B40015DF5E /* Build configuration list for PBXProject "jme3-ios-native" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAA18652C9CC9B40015DF5E /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBAA18672C9CC9B40015DF5E /* Build configuration list for PBXNativeTarget "jme3-ios-native-lib" */ = {
+		BBAA18672C9CC9B40015DF5E /* Build configuration list for PBXNativeTarget "jme3-ios-native" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAA18682C9CC9B40015DF5E /* Debug */,

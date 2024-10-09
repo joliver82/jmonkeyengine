@@ -1,6 +1,6 @@
 //
 //  jme3_ios_native_lib.h
-//  jme3-ios-native-lib
+//  jme3-ios-native
 //
 //  Created by v1r7ua1 on 19/09/2024.
 //

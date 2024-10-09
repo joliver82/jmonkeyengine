@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:jme3-ios-native-lib.xcodeproj">
+      location = "self:jme3-ios-native.xcodeproj">
    </FileRef>
 </Workspace>
