@@ -115,7 +115,7 @@ jobs:
       - name: Setup the XCode version to 15.1.0 
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '15.1.0'
+          xcode-version: '16.4.0'
 
       - name: Clone the repo
         uses: actions/checkout@v4
@@ -178,7 +178,7 @@ jobs:
           - os: windows-latest
             osName: windows
             deploy: false
-          - os: macOS-latest
+          - os: macos-15-intel
             osName: mac
             deploy: false
           - jdk: 11
