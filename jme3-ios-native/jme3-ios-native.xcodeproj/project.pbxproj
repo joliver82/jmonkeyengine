@@ -326,6 +326,7 @@
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers/,
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/arm64/Contents/Home/include/**",
+					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/x64/Contents/Home/include/**",
 				);
 				INFOPLIST_FILE = src/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -347,6 +348,7 @@
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers/,
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/arm64/Contents/Home/include/**",
+					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/x64/Contents/Home/include/**",
 				);
 			};
 			name = Debug;
@@ -364,6 +366,7 @@
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers/,
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/arm64/Contents/Home/include/**",
+					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/x64/Contents/Home/include/**",
 				);
 				INFOPLIST_FILE = src/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -385,6 +388,7 @@
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/JavaVM.framework/Headers/,
 					"/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/include/**",
 					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/arm64/Contents/Home/include/**",
+					"/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.26-4/x64/Contents/Home/include/**",
 				);
 			};
 			name = Release;
