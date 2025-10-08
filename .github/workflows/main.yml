@@ -52,6 +52,7 @@ on:
       - v3.4
       - v3.3
       - ios-2024_2
+      - TEST_build_using_intel_osx
   pull_request:
   release:
     types: [published]
@@ -99,7 +100,7 @@ jobs:
   # Build iOS natives
   BuildIosNatives:
     name: Build natives for iOS
-    runs-on: macOS-14
+    runs-on: macos-15-intel
 
     steps:
       - name: Check default JAVAs 
@@ -168,7 +169,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest,windows-latest,macOS-latest]
+        os: [ubuntu-latest,windows-latest,macos-15-intel]
         jdk: [11, 17, 21]
         include:
           - os: ubuntu-latest
